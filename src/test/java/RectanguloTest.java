@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
- */
 
 import Calculator.Entities.Rectangulo;
 import Calculator.Services.RectanguloServices;
@@ -47,13 +43,13 @@ public class RectanguloTest {
     
     @Test
     public void deberiaInicializarConColorRojo(){
-        assertEquals(new Rectangulo(10,10).getColor(),"Azul");
+        assertEquals(new Rectangulo(10,10).getColor(),"Rojo");
     }
     
     @Test
     public void deberiaCalcularArea(){
         assertEquals(100, rs.calcularArea(new Rectangulo(10,10)),0);
-        assertEquals(8, rs.calcularArea(new Rectangulo(3,3)),0);
+        assertEquals(9, rs.calcularArea(new Rectangulo(3,3)),0);
         assertEquals(10, rs.calcularArea(new Rectangulo(1,10)),0);
     }
     
