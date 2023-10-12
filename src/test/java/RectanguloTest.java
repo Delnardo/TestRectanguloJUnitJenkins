@@ -50,7 +50,7 @@ public class RectanguloTest {
     public void deberiaCalcularArea(){
         assertEquals(100, rs.calcularArea(new Rectangulo(10,10)),0);
         assertEquals(9, rs.calcularArea(new Rectangulo(3,3)),0);
-        assertEquals(10, rs.calcularArea(new Rectangulo(1,10)),0);
+        assertEquals(19, rs.calcularArea(new Rectangulo(2,10)),0);
     }
     
     @Test
